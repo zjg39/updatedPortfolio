@@ -1,12 +1,176 @@
-
-* { 
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 2;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
 }
 
+#header {
+    padding-top: 50px;
+    background-image: linear-gradient(to right, white, black);
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#name {
+    color: black;
+}
+
+#top-list li {
+    margin: 0px 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+
+#bio-container {
+    border-right: 5px solid black;
+}
+
+#about {
+    flex-wrap: wrap;
+}
+
+#bio-row {
+    margin-bottom: 50px;
+}
+
+#bio-id {
+    margin-left: 90px;
+}
+
+#image {
+    max-width: 150px;
+}
+
+#work-container {
+    border-right: 5px solid black;
+}
+
+#project1Card {
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    background-image: url(./images/library.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+#project1Tag {
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    height: fit-content;
+    padding: 10px 20px;
+    opacity: 70%;
+}
+
+#project1Tag:hover {
+    opacity: 100%;
+}
+
+#passwordGeneratorCard{
+    background-image: url(./images/clock.png);
+    background-size: cover;
+    max-width: 275px;
+    height: 200px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+#passwordGeneratorTag {
+    font-size: 20px;
+    background-color: gray;
+    padding: 5px 10px;
+    width: fit-content;
+    height: fit-content;
+    opacity: 70%;
+}
+
+#passwordGeneratorTag:hover {
+    opacity: 100%;
+}
+
+#firstWebsiteCard {
+    background-image: url(./images/workout.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 275px;
+    height: 200px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+#firstWebsiteTag {
+    font-size: 20px;
+    background-color: gray;
+    padding: 5px 10px;
+    width: fit-content;
+    height: fit-content;
+    opacity: 70%;
+}
+
+#firstWebsiteTag:hover {
+    opacity: 100%;
+}
+
+#weatherAppCard {
+    background-image: url(./images/ecommerce.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 275px;
+    height: 200px;
+    margin-right: 25px;
+}
+
+#weatherAppTag {
+    font-size: 20px;
+    background-color: gray;
+    padding: 5px 10px;
+    width: fit-content;
+    height: fit-content;
+    opacity: 70%;
+}
+
+#weatherAppTag:hover {
+    opacity: 100%;
+}
+
+#dailyPlannerCard {
+    background-image: url(./images/budget.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 275px;
+    height: 200px;
+    margin-left: 25px;
+}
+
+#dailyPlannerTag {
+    font-size: 20px;
+    background-color: gray;
+    padding: 5px 10px;
+    width: fit-content;
+    height: fit-content;
+    opacity: 70%;
+}
+
+#dailyPlannerTag:hover {
+    opacity: 100%;
+}
+
+#contact-row {
+    margin: 30px 0px;
+}
+
+#contact-container {
+    border-right: 5px solid black;
+    margin-left: -7px;
+}
+
+#contact-id {
+    margin-right: 10px;
+}
+
+#contactList li {
+    color: black;
+    margin: 15px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

@@ -1,95 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="../../assets/reset.css">
-    <link rel="stylesheet" href="../../assets/style.css">
-    <title>Updated Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1 class="h1">Zac Goad</h1>
-        <nav>
-            <ul class="nav-link-area">
-                <li class="links"><a href="#about">About</a></li>
-                <li class="links"><a href="#work">Work</a></li>
-                <li class="links"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="subheader">
-            <h2 class="title"> Welcome to my page!</h2>
-        </section>
-        <br>
-        <br>
-        <section>
-            <aside id="about">
-                <h2>About Me</h2>
-            </aside>
-            <article>
-                <img class="selfPhoto" alt="Zac Goad Picture" src="">
-                <p class="aboutSectionText"></p>
-            </article>
-        </section>
-        <br>
-        <br>
-        <section>
-            <aside id="work">
-                <h2>Work</h2>
-            </aside>
-            <div class="workSection">
-                <a href="">
-                    <div class="" id="">
-                        <div id="">
-                            <h3>Project 1</h3>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="" id="">
-                        <div class="">
-                            <h3>Project 2</h3>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="" id="">
-                        <div class="">
-                            <h3>Project 3</h3>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="" id="">
-                        <div class="">
-                            <h3>Project 4</h3>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="" id="">
-                        <div class="">
-                            <h3>Project 5</h3>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </section>
-        <br>
-        <br>
-        <section>
-            <aside id="contact">
-                <h2>Contact</h2>
-            </aside>
-            <article class="contactSection">
-                <a href="https://github.com/zjg39" class="contactLinks">GitHub</a>
-                <a href="tel:+15558675309" class="contactLinks">555 - 867 - 5309</a>
-                <a href="mailto:zjgoad@gmail.com" class="contactLinks">Email</a>
-            </article>
-        </section>
-    </main>
 
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Zachary Goad: Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+    <body>
+        <div class="container" id="header">
+            <div class="row">
+                <div class="col-4" id="header-col-1">
+                    <h2 id="name">Zac Goad</h2>
+                </div>
+                <div class="col-4" id="header-col-2"></div>
+                <div class="col-4 d-flex flex-column" id="header-col-3"></div>
+                    <ul style="list-style: none;" class="d-flex justify-content-end" id="top-list">
+                        <li>
+                            <a href="#Bio">Bio</a>
+                        </li>
+                        <li>
+                            <a href="#work-row">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contactInfo">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <main class="container">
+            <div class="row d-flex justify-content-center" id="bio-row">
+                <div class="col-2" id="bio-container">
+                    <h1 id="bio-id">Bio</h1>
+                </div>
+                <div class="col-10" id="about">
+                    <img src="./assets/images/self.JPG" id="image">
+                    <p>
+                        I am junior software developer, currently enrolled in the full-stack web development
+                        bootcamp at Georgia Tech.  When I'm not expanding my skills as a developer, I can usually be found
+                        somewhere outside, maybe in my garden or on a nearby hiking trail. 
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="work-row">
+                <div class="col-2 d-flex justify-content-center" id="work-container">
+                    <h1 id="work-id">Work</h1>
+                </div>
+                <div class="col-10">
+                    <div class="row d-flex justify-content-center">
+                        <article class="col" id="project1Card">
+                            <a id="project1Tag" href="https://github.com/darionthetech/Mirum">Mirum</a>
+                        </article>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="row d-flex justify-content-center">
+                        <article class="col" id="firstWebsiteCard">
+                            <a id="firstWebsiteTag" href="https://github.com/zjg39/fitnessTracker">Fitness Tracker</a>
+                        </article>
+                        <article class="col" id="passwordGeneratorCard">
+                            <a id="passwordGeneratorTag" href="https://github.com/zjg39/analogClock">Python Analog Clock</a>
+                        </article>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="row d-flex justify-content-center">
+                        <article class="col" id="weatherAppCard">
+                            <a id="weatherAppTag" href="https://github.com/zjg39/ECommerceBackEnd">E-Commerce Backend</a>
+                        </article>
+                        <article class="col" id="dailyPlannerCard">
+                            <a id="dailyPlannerTag" href="https://github.com/zjg39/budgetTracker">Budget Tracker</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="contact-row">
+                <div class="col-2" id="contact-container">
+                    <h1 id="contact-id">Contact</h1>
+                </div>
+                <div class="col-10 d-flex justify-content-around" id="contactInfo">
+                    <ul style="list-style: none;" class="list-group list-group-horizontal" id="contactList">
+                        <li>
+                            <a href="mailto: zjgoad@gmail.com" target="_blank">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/zjg39" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/zachary-goad-79540a221/" target="_blank">LinkedIn</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
